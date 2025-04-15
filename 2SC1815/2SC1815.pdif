@@ -1,0 +1,205 @@
+;Proteus Design Interchange Format
+
+(PDIF
+  (vendor "Labcenter Electronics")
+  (version 1 0)
+  (library
+    (part "2SC1815"
+      (family "TRX")
+      (package "TO92127P521H5343")
+      (description "_Bipolar_(BJT)_Transistor_NPN_50_V_150_mA_80MHz_400_mW_-_-_")
+      (attribute "PKG_TYPE" "TO92127P521H5343")
+      (attribute "MF" "Central_Semiconductor")
+      (attribute "PACKAGE" "-_Central_Semiconductor")
+      (attribute "PRICE" "None")
+      (attribute "CHECK_PRICES" "https://www.snapeda.com/parts/2SC1815/Central+Semiconductor+Corp/view-part/?ref=eda")
+      (attribute "STANDARD" "IPC-7251")
+      (attribute "SNAPEDA_LINK" "https://www.snapeda.com/parts/2SC1815/Central+Semiconductor+Corp/view-part/?ref=snap")
+      (attribute "MP" "2SC1815")
+      (attribute "AVAILABILITY" "In_Stock")
+      (attribute "MANUFACTURER" "Central_Semiconductor")
+      (gate
+        (swap 1)
+        (symbol "2SC1815")
+        (pin "B" 3 (type PS))
+        (pin "C" 2 (type PS))
+        (pin "E" 1 (type PS))
+      )
+    )
+    (symbol "2SC1815"
+      (units THOU)
+      (graphic
+        (stroke 6.0)
+        (path (pt 100.0 100.0) (pt 20.0 60.0))
+      )
+      (graphic
+        (stroke 6.0)
+        (path (pt 70.0 -60.0) (pt 100.0 -100.0))
+      )
+      (graphic
+        (stroke 6.0)
+        (path (pt 100.0 -100.0) (pt 50.0 -100.0))
+      )
+      (graphic
+        (stroke 6.0)
+        (path (pt 50.0 -100.0) (pt 70.0 -60.0))
+      )
+      (graphic
+        (stroke 6.0)
+        (path (pt 60.63 -80.31) (pt 12.13 -56.06))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt 60.0 -95.0) (pt 90.0 -95.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt 90.0 -95.0) (pt 70.0 -70.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt 70.0 -70.0) (pt 60.0 -90.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt 60.0 -90.0) (pt 75.0 -90.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt 75.0 -90.0) (pt 70.0 -80.0))
+      )
+      (graphic
+        (stroke 1)
+        (path (pt -10 100) (pt 20 100) (pt 20 -100) (pt -10 -100) (pt -10 100) (closed))
+      )
+      (terminal
+        (body (symbol "PIN_R0_U_L100") (pt -100.0 0.0) (rot 0) (mir 0) (visible true))
+        (name (pt 139.37 0.0) (rot 0) (just MIDDLE LEFT) (visible false))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE LEFT) (visible false))
+      )
+      (terminal
+        (body (symbol "PIN_R270_U_L100") (pt 100.0 200.0) (rot 0) (mir 0) (visible true))
+        (name (pt -0.0 -139.37) (rot 0) (just MIDDLE RIGHT) (visible false))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE RIGHT) (visible false))
+      )
+      (terminal
+        (body (symbol "PIN_R90_U_L100") (pt 100.0 -200.0) (rot 0) (mir 0) (visible true))
+        (name (pt 0.0 139.37) (rot 0) (just MIDDLE LEFT) (visible false))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE LEFT) (visible false))
+      )
+    )
+    (symbol "PIN_R0_U_L100"
+      (units THOU)
+      (graphic
+        (stroke 6.5)
+        (path (pt 0.0 0.0) (pt 100.0 0.0))
+      )
+    )
+    (symbol "PIN_R270_U_L100"
+      (units THOU)
+      (graphic
+        (stroke 6.5)
+        (path (pt 0.0 0.0) (pt -0.0 -100.0))
+      )
+    )
+    (symbol "PIN_R90_U_L100"
+      (units THOU)
+      (graphic
+        (stroke 6.5)
+        (path (pt 0.0 0.0) (pt 0.0 100.0))
+      )
+    )
+    (package "TO92127P521H5343"
+      (units THOU)
+      (layer TSLK
+        (graphic
+          (stroke 5.0)
+          (path (pt -77.36 -84.96) (pt 77.36 -84.96))
+        )
+        (graphic
+          (stroke 5.0)
+          (path
+            (arc (pt -77.36 -84.96) (pt -102.51 -120.22) (pt 102.51 84.8) (start -262) (sweep 221))
+            (pt 77.36 -84.96)
+          )
+        )
+        (graphic
+          (stroke 11.81)
+          (circle (pt -55.12 -110.24) (pt -47.24 -110.24))
+        )
+      )
+      (layer TASM
+        (graphic
+          (stroke 5.0)
+          (path (pt -77.36 -84.96) (pt 77.36 -84.96))
+        )
+        (graphic
+          (stroke 5.0)
+          (path
+            (arc (pt -77.36 -84.96) (pt -102.51 -120.22) (pt 102.51 84.8) (start -262) (sweep 221))
+            (pt 77.36 -84.96)
+          )
+        )
+        (graphic
+          (stroke 11.81)
+          (circle (pt -55.12 -110.24) (pt -47.24 -110.24))
+        )
+      )
+      (layer OCCA
+        (graphic
+          (stroke 1.97)
+          (path (pt -112.6 -94.88) (pt 112.6 -94.88))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt -112.6 -94.88) (pt -112.6 -17.64))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt 112.6 -94.88) (pt 112.6 -17.64))
+        )
+        (graphic
+          (stroke 1.97)
+          (path
+            (arc (pt -112.6 -17.64) (pt -112.6 -130.24) (pt 112.6 94.96) (start -180) (sweep 180))
+            (pt 112.6 -17.64)
+          )
+        )
+      )
+      (leg 1 (pt -50 -27.17) (padstack 1))
+      (leg 2 (pt 0 -27.17) (padstack 2))
+      (leg 3 (pt 50 -27.17) (padstack 3))
+      (padstack 1
+        (slot 37 37 0 0)
+        (plated true)
+        (pad (layer TCOP) (ovalf 43.31 86.61 0 90.0))
+        (pad (layer INNER) (ovalf 43.31 86.61 0 90.0))
+        (pad (layer BCOP) (ovalf 43.31 86.61 0 90.0))
+        (pad (layer TRES) (ovalf 43.31 86.61 0 90.0))
+        (pad (layer BRES) (ovalf 43.31 86.61 0 90.0))
+      )
+      (padstack 2
+        (slot 37 37 0 0)
+        (plated true)
+        (pad (layer TCOP) (ovalf 43.31 86.61 0 90.0))
+        (pad (layer INNER) (ovalf 43.31 86.61 0 90.0))
+        (pad (layer BCOP) (ovalf 43.31 86.61 0 90.0))
+        (pad (layer TRES) (ovalf 43.31 86.61 0 90.0))
+        (pad (layer BRES) (ovalf 43.31 86.61 0 90.0))
+      )
+      (padstack 3
+        (slot 37 37 0 0)
+        (plated true)
+        (pad (layer TCOP) (ovalf 43.31 86.61 0 90.0))
+        (pad (layer INNER) (ovalf 43.31 86.61 0 90.0))
+        (pad (layer BCOP) (ovalf 43.31 86.61 0 90.0))
+        (pad (layer TRES) (ovalf 43.31 86.61 0 90.0))
+        (pad (layer BRES) (ovalf 43.31 86.61 0 90.0))
+      )
+      (model 2SC1815.step
+        (euler 0 0 0)
+        (offset 0 0 0)
+      )
+    )
+  )
+)

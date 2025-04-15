@@ -1,0 +1,219 @@
+;Proteus Design Interchange Format
+
+(PDIF
+  (vendor "Labcenter Electronics")
+  (version 1 0)
+  (library
+    (part "2SB688"
+      (family "TRX")
+      (package "TO545P1560X450X23203")
+      (description "isc_Silicon_PNP_Power_Transistor_")
+      (attribute "PKG_TYPE" "TO545P1560X450X23203")
+      (attribute "MF" "Toshiba")
+      (attribute "MAXIMUM_PACKAGE_HEIGHT" "23.2mm")
+      (attribute "PACKAGE" "None")
+      (attribute "PRICE" "None")
+      (attribute "CHECK_PRICES" "https://www.snapeda.com/parts/2SB688/Toshiba/view-part/?ref=eda")
+      (attribute "STANDARD" "IPC-7351B")
+      (attribute "PARTREV" "NA")
+      (attribute "SNAPEDA_LINK" "https://www.snapeda.com/parts/2SB688/Toshiba/view-part/?ref=snap")
+      (attribute "MP" "2SB688")
+      (attribute "DESCRIPTION" "_Bipolar_Transistors_-_BJT_Pb_TO3PI_PLS_PLN-N,DISCON(01-12)/PHASE-OUT(05-07)/OBSOLETE(07-10),_")
+      (attribute "AVAILABILITY" "Not_in_stock")
+      (attribute "MANUFACTURER" "INCHANGE_Semiconductor_")
+      (gate
+        (swap 1)
+        (symbol "2SB688")
+        (pin "B" 1 (type PS))
+        (pin "C" 2 (type PS))
+        (pin "E" 3 (type PS))
+      )
+    )
+    (symbol "2SB688"
+      (units THOU)
+      (graphic
+        (stroke 6.0)
+        (path (pt 82.13 -66.06) (pt 62.13 -102.13))
+      )
+      (graphic
+        (stroke 6.0)
+        (path (pt 62.13 -102.13) (pt 20.31 -58.19))
+      )
+      (graphic
+        (stroke 6.0)
+        (path (pt 20.31 -58.19) (pt 82.13 -66.06))
+      )
+      (graphic
+        (stroke 6.0)
+        (path (pt 100.0 -100.0) (pt 71.18 -83.62))
+      )
+      (graphic
+        (stroke 6.0)
+        (path (pt 100.0 100.0) (pt 20.0 60.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt 75.0 -70.0) (pt 60.0 -95.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt 60.0 -95.0) (pt 30.0 -65.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt 30.0 -65.0) (pt 70.0 -70.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt 70.0 -70.0) (pt 60.0 -85.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt 60.0 -85.0) (pt 45.0 -75.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt 45.0 -75.0) (pt 60.0 -75.0))
+      )
+      (graphic
+        (stroke 1)
+        (path (pt -10.02 100.16) (pt 20 100.16) (pt 20 -100) (pt -10.02 -100) (pt -10.02 100.16) (closed))
+      )
+      (terminal
+        (body (symbol "PIN_R0_U_L200") (pt -200.0 0.0) (rot 0) (mir 0) (visible true))
+        (name (pt 239.37 0.0) (rot 0) (just MIDDLE LEFT) (visible false))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE LEFT) (visible true))
+      )
+      (terminal
+        (body (symbol "PIN_R270_U_L200") (pt 100.0 300.0) (rot 0) (mir 0) (visible true))
+        (name (pt -0.0 -239.37) (rot 0) (just MIDDLE RIGHT) (visible false))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE RIGHT) (visible true))
+      )
+      (terminal
+        (body (symbol "PIN_R90_U_L200") (pt 100.0 -300.0) (rot 0) (mir 0) (visible true))
+        (name (pt 0.0 239.37) (rot 0) (just MIDDLE LEFT) (visible false))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE LEFT) (visible true))
+      )
+    )
+    (symbol "PIN_R0_U_L200"
+      (units THOU)
+      (graphic
+        (stroke 6.5)
+        (path (pt 0.0 0.0) (pt 200.0 0.0))
+      )
+    )
+    (symbol "PIN_R270_U_L200"
+      (units THOU)
+      (graphic
+        (stroke 6.5)
+        (path (pt 0.0 0.0) (pt -0.0 -200.0))
+      )
+    )
+    (symbol "PIN_R90_U_L200"
+      (units THOU)
+      (graphic
+        (stroke 6.5)
+        (path (pt 0.0 0.0) (pt 0.0 200.0))
+      )
+    )
+    (package "TO545P1560X450X23203"
+      (units THOU)
+      (layer TSLK
+        (graphic
+          (stroke 7.87)
+          (circle (pt -122.05 0) (pt -114.17 0))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -92.52 119.29) (pt 521.65 119.29))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -92.52 -57.87) (pt 521.65 -57.87))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -92.52 119.29) (pt -92.52 -57.87))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt 521.65 119.29) (pt 521.65 -57.87))
+        )
+      )
+      (layer TASM
+        (graphic
+          (stroke 7.87)
+          (circle (pt -122.05 0) (pt -114.17 0))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -92.52 119.29) (pt 521.65 119.29))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -92.52 -57.87) (pt 521.65 -57.87))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -92.52 119.29) (pt -92.52 -57.87))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt 521.65 119.29) (pt 521.65 -57.87))
+        )
+      )
+      (layer OCCA
+        (graphic
+          (stroke 1.97)
+          (path (pt -102.36 128.94) (pt 531.5 128.94))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt -102.36 -67.91) (pt 531.5 -67.91))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt -102.36 128.94) (pt -102.36 -67.91))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt 531.5 128.94) (pt 531.5 -67.91))
+        )
+      )
+      (leg 1 (pt 0 0) (padstack 1))
+      (leg 2 (pt 214.57 0) (padstack 2))
+      (leg 3 (pt 429.13 0) (padstack 3))
+      (padstack 1
+        (hole 57)
+        (plated true)
+        (pad (layer TCOP) (square 85.63))
+        (pad (layer INNER) (square 85.63))
+        (pad (layer BCOP) (square 85.63))
+        (pad (layer TRES) (square 89.57))
+        (pad (layer BRES) (square 89.57))
+      )
+      (padstack 2
+        (hole 57)
+        (plated true)
+        (pad (layer TCOP) (round 85.63))
+        (pad (layer INNER) (round 85.63))
+        (pad (layer BCOP) (round 85.63))
+        (pad (layer TRES) (round 89.57))
+        (pad (layer BRES) (round 89.57))
+      )
+      (padstack 3
+        (hole 57)
+        (plated true)
+        (pad (layer TCOP) (round 85.63))
+        (pad (layer INNER) (round 85.63))
+        (pad (layer BCOP) (round 85.63))
+        (pad (layer TRES) (round 89.57))
+        (pad (layer BRES) (round 89.57))
+      )
+      (model 2SB688.step
+        (euler 0 0 0)
+        (offset 0 0 0)
+      )
+    )
+  )
+)

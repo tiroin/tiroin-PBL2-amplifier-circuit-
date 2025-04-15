@@ -1,0 +1,109 @@
+;Proteus Design Interchange Format
+
+(PDIF
+  (vendor "Labcenter Electronics")
+  (version 1 0)
+  (library
+    (part "TO92127P520H5343"
+      (family "ANA")
+      (package "TO92127P520H5343")
+      (attribute "PKG_TYPE" "TO92127P520H5343")
+    )
+    (package "TO92127P520H5343"
+      (units THOU)
+      (layer TSLK
+        (graphic
+          (stroke 5.0)
+          (path
+            (arc (pt -78.58 -52.56) (pt -93.81 -95.14) (pt 93.81 92.47) (start -246) (sweep 214))
+            (pt 78.58 -52.56)
+          )
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -78.58 -52.56) (pt -73.7 -52.56))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt 73.62 -52.56) (pt 78.58 -52.56))
+        )
+        (graphic
+          (stroke 7.87)
+          (circle (pt -59.06 -76.08) (pt -51.18 -76.08))
+        )
+      )
+      (layer TASM
+        (graphic
+          (stroke 5.0)
+          (path (pt -78.58 -52.56) (pt 78.58 -52.56))
+        )
+        (graphic
+          (stroke 5.0)
+          (path
+            (arc (pt -78.58 -52.56) (pt -93.81 -95.14) (pt 93.81 92.47) (start -246) (sweep 214))
+            (pt 78.58 -52.56)
+          )
+        )
+        (graphic
+          (stroke 7.87)
+          (circle (pt -59.06 -76.08) (pt -51.18 -76.08))
+        )
+      )
+      (layer OCCA
+        (graphic
+          (stroke 1.97)
+          (path (pt -105.12 -62.4) (pt 105.12 -62.4))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt -105.12 -62.4) (pt -105.12 14.67))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt 105.12 -62.4) (pt 105.12 14.67))
+        )
+        (graphic
+          (stroke 1.97)
+          (path
+            (arc (pt -105.12 14.67) (pt -106.43 -108.41) (pt 106.43 104.44) (start -162) (sweep 171))
+            (pt 105.12 14.67)
+          )
+        )
+      )
+      (leg 1 (pt -50 0) (padstack 1))
+      (leg 2 (pt 0 0) (padstack 2))
+      (leg 3 (pt 50 0) (padstack 3))
+      (padstack 1
+        (slot 35 35 0 0)
+        (plated true)
+        (pad (layer TCOP) (ovalf 43.31 86.61 0 90.0))
+        (pad (layer INNER) (ovalf 43.31 86.61 0 90.0))
+        (pad (layer BCOP) (ovalf 43.31 86.61 0 90.0))
+        (pad (layer TRES) (ovalf 43.31 86.61 0 90.0))
+        (pad (layer BRES) (ovalf 43.31 86.61 0 90.0))
+      )
+      (padstack 2
+        (slot 35 35 0 0)
+        (plated true)
+        (pad (layer TCOP) (ovalf 43.31 86.61 0 90.0))
+        (pad (layer INNER) (ovalf 43.31 86.61 0 90.0))
+        (pad (layer BCOP) (ovalf 43.31 86.61 0 90.0))
+        (pad (layer TRES) (ovalf 43.31 86.61 0 90.0))
+        (pad (layer BRES) (ovalf 43.31 86.61 0 90.0))
+      )
+      (padstack 3
+        (slot 35 35 0 0)
+        (plated true)
+        (pad (layer TCOP) (ovalf 43.31 86.61 0 90.0))
+        (pad (layer INNER) (ovalf 43.31 86.61 0 90.0))
+        (pad (layer BCOP) (ovalf 43.31 86.61 0 90.0))
+        (pad (layer TRES) (ovalf 43.31 86.61 0 90.0))
+        (pad (layer BRES) (ovalf 43.31 86.61 0 90.0))
+      )
+      (model 2SA1013.step
+        (euler 0 0 0)
+        (offset 0 0 0)
+      )
+    )
+  )
+)
